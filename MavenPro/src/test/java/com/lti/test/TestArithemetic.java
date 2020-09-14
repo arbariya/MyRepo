@@ -21,6 +21,19 @@ public class TestArithemetic {
 	
 	@Test
 	public void testSum() {
-		assertEquals(10, arth.sum(4,0));
+		assertEquals(10, arth.sum(4,6));
+	}
+	
+	@Test
+	public void testSumAgain() {
+		assertEquals(9,arth.sum(4, 5));
+	}
+	
+	@Test
+	void testmax(){
+		
+	}
+	{
+		
 	}
 }
