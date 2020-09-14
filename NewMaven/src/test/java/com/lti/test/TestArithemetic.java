@@ -21,7 +21,7 @@ public class TestArithemetic {
 	
 	@Test
 	public void testSum() {
-		assertEquals(10, arth.sum(4,6));
+		assertEquals(10, arth.sum(4,0));
 	}
 	
 	
